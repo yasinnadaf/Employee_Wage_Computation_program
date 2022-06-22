@@ -1,4 +1,5 @@
 #! /bin/bash -x
+echo "Welcome to employee wage computation problem"
 echo "Attendance"
 random=$(( $RANDOM % 2 ))
 if [ $random -eq 0 ]
